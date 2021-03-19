@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav {
+    height: 100px;
+    background-color: #d33a2c;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.foto-smash {
+    width: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.SSS {
+    background-color: white;
+    height: 28px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text .fa-search {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 5px;
+    color: red;
+    margin-left: 10px;
+}
+
+.text span {
+    font-size: 20px;
+    color: rgb(134, 134, 143);
+    font-weight: 700;
+}
+
+li .menu .fa-cat {
+    color: white;
+    margin-left: 0px;
+}
+
+li .menu .bol {
+    margin-right: 0px;
+}
+
+li .menu {
+    width: 130px;
+    height: 45px;
+    background-color: #a7251b;
+    border-radius: 15px;
+    border: none;
+    /* background-image: url(/images/icons/menu-cat.svg); */
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header ul li {
+    list-style: none;
+    font-weight: 900;
+    
+}
+
+li .menu .bol {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-nav .SSS .s {
+    color: rgb(199, 7, 7);
+    transform: rotate(0deg);
+}
+
+.fisher {
+    display: flex;
+}
+
+.foto-kerri {
+    border: 10px solid red;
+    width: 150px;
+    border-radius: 10%;
+    margin-left: 50px;
+    transform: rotate(-15deg); 
+    box-shadow: 0px 5px 35px grey;
+}
+
+.ddd {
+    transition: 1s;
+}
+
+.foto-kerri:hover {
+    transform: rotate(0deg);
+}
+
+.kerri {
+    color: red;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.jerri {
+    margin-left: 25px;
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.tools {
+    display: flex;
+}
+
+.tools .trans {
+    width: 350px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.tools .trans:hover {
+    transform: scale(1.5);
+    background-color: rgb(231, 229, 229);
+    z-index: 0;
+}
+
+.tools .tools-2:hover {
+    transform: scale(1.5);
+    background-color: rgb(243, 237, 237);
+    /* z-index: 1;   */
+}
+
+.tools .trans p {
+    margin-top: 30px;
+}
+
+.tools .tools-2 {
+    width: 350px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 180px;
+}
+
+.flutter {
+    width: 800px;
+    /* height: 80px; */
+    margin-left: 50px;
+    color: rgb(121, 112, 112);
+    margin-bottom: 50px;
+}
+
+.flutter h3 {
+    margin-bottom: 50px;
+}
+
+.continue {
+    color: #D4412B;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-bottom: 50px; */
+}
+.carmin {
+    display: flex;
+    margin-top: 50px;
+}
+
+.foto-carmine { 
+    border: 10px solid red;
+    width: 150px;
+    border-radius: 10%;
+    margin-left: 50px;
+    transform: rotate(-15deg); 
+    box-shadow: 0px 5px 35px grey;
+}
+
+.ccc {
+    transition: 1s;
+}
+
+.foto-carmine:hover {
+    transform: rotate(0deg);
+}
+
+.carmine {
+    color: red;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.jekki {
+    margin-left: 25px;
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.jasmin {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.foto-jasmin { 
+    border: 10px solid red;
+    width: 150px;
+    border-radius: 10%;
+    margin-left: 50px;
+    transform: rotate(-15deg); 
+    box-shadow: 0px 5px 35px grey;
+    transition: 0.5s;
+}
+
+.foto-jasmin:hover {
+    transform: rotate(0deg);
+}
+
+.jasmine {
+    color: red;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.goluboy {
+    width: 950px;
+    height: 500px;
+    background-color: #CBD8F8;
+    margin: 0 auto;
+}
+
+.mushukcha {
+    width: 258px;
+    height: 290px;
+}
+
+.goluboy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7F8FF;
+    position: relative;
+    margin-top: 200px;
+}
+
+.mushuv {
+    width: 250px;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: -125px;
+}
+
+.mail-com {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 11px;
+    margin-bottom: 25px;
+    border: 5px solid rgb(8, 2, 65);
+}
+
+.mail-com .mail-ru {
+    color: #d33a2c;
+    font-weight: 900;
+    position: absolute;
+    top: 130px;
+    right: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ppa {
+    width: 815px;
+    text-align: center;
+}
+
+.spa {
+    color: rgb(22, 22, 233);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.useful {
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 170px;
+    right: 150px;
+
+}
+.with {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+}
+
+.input {
+    display: flex;
+    margin-top: 35px;
+    border-radius: 20%;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 50%);
+    position: absolute;
+    top: 300px;
+}
+
+.input:hover {
+    box-shadow: none;
+}
+
+.input .mail {
+    width: 200px;
+    height: 30px;
+    background-color: ghostwhite;
+    margin-right: 0px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.input .meow {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(63, 63, 241);
+    margin-left: 0px;
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    color: wheat;
+    font-weight: 700;
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 11px;
+    cursor: pointer;
+}
+
+.past {
+    color: #666;
+    margin-top: 20px;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
+
+.hi {
+    color: #666;
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: 15px;
+
+}
+
+.article {
+    width: 200px;
+    height: 15px;
+    border-bottom: 5px solid #d33a2c;
+    padding: 10px;
+    margin-left: 450px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.for-art {
+    color:rgb(73, 72, 72);
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.three-div {
+    /* width: 1000px; */
+    height: 700px;
+    margin: 0;
+    background-color: #F6F3F2;
+    display: flex;
+    position: relative;
+}
+
+
+
+.left-div {
+    width: 450px;
+    height: 300px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -300px;
+    top: 150px;
+
+}
+
+.chiziq {
+    border-bottom: 1px solid rgb(10, 9, 9);
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: -8px;
+    transform: rotate(90deg);
+    left: 50px;
+}
+
+.three-div .latest-posts {
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.three-div .latest-posts .four {
+    margin-bottom: 50px;
+}
+
+.div-second {
+    position: absolute;
+  width: 450px;  
+  height: 400px;
+  left: 100px;
+  top: 50px;
+}
+
+.div-second:hover {
+    transform: scale(1.2);
+    /* z-index: 0; */
+    background-color: white;
+    transition: 0.8s;
+}
+
+.right-div:hover {
+    transform: scale(1.1);
+    background-color: white;
+    transition: 0.8s;
+
+}
+
+.css-generation a {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.css-generation .by {
+    font-size: 15px;
+    color: rgb(109, 106, 106);
+    text-decoration: underline;
+}
+
+.gaplar {
+    font-size: 20px;
+    color: rgb(102, 101, 101);
+}
+
+.right-div {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+
+.strelka {
+
+    color: red;
+}
+
+.div-strelka {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-strelka:hover {
+    background-color: #006fc6;
+    color: white;
+}
+
+.mushuv-2 {
+    width: 665px;
+    height: 600px;
+    margin-left: 250px;
+}
+
+.mushuv-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7F8FF;
+    position: relative;
+    margin-top: 200px;
+}
+
+.mushuv2 {
+    width: 250px;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: -125px;
+}
+
+.mail. {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 11px;
+    margin-bottom: 25px;
+    border: 5px solid rgb(8, 2, 65);
+}
+
+.mail .mail.ru {
+    color: #d33a2c;
+    font-weight: 900;
+    position: absolute;
+    top: 130px;
+    right: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ppp {
+    position: relative;
+    width: 850px;
+    text-align: center;
+}
+
+.spas {
+    color: rgb(22, 22, 233);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.useless {
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 170px;
+    right: 150px;
+
+}
+.witth {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    width: 650px;
+    left: 100px;
+    
+}
+
+.ppp .inbox {
+    text-decoration: underline;
+    color: rgb(38, 0, 255);
+    position: absolute;
+    left: 250px;
+    top: 80px;
+}
+
+.join {
+    /* background: var(--promo-highlight); */
+    color: red;
+    top: 400px;
+    position: absolute;
+    right: 320px;
+    background-color: teal;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.all {
+    position: absolute;
+    top: 500px;
+    left: 310px;
+    color: rgb(150, 141, 141);
+}
+
+
+
+
+
+
+
